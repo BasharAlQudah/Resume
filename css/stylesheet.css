@@ -34,9 +34,16 @@ body{
 }
 .cen{
     display: flex !important;
-    justify-content: end !important;
-    align-items: end !important;
+    justify-content: space-around !important;
+    align-items: start !important;
+    width: 100% !important;
 }
 .ul-head{
     list-style: none ;
+}
+.last{
+    display: flex !important;
+    justify-content: space-around !important;
+    align-items: end !important;
+    order: 10;
 }
